@@ -2,11 +2,36 @@
 
 {% block content %}
 <div class="bg-light p-5 rounded-lg m-3">
-    <h1 class="display-4">Hello, world!</h1>
+    <h1 class="display-4">De Pinar a Maisí</h1>
     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
         featured content or information.</p>
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>
+
+
+<!-- Probando una grid https://getbootstrap.com/docs/5.3/layout/grid/#mix-and-match -->
+<div class="container text-center">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-md-8">Viñales 
+        <img src="https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/valle_de_vinales%2C_cuba_bestintravel2016_kamira_shutterstock.jpg?itok=LEt4eKPl" alt="Valle de Viñales" width="500" height="400"> </div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+  
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+  
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-6">.col-6</div>
+      <div class="col-6">.col-6</div>
+    </div>
+  </div>
+
 {% endblock %}
