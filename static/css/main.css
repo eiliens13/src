@@ -1,13 +1,20 @@
 body {
     background: #DCE35B;
-    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45B649, #DCE35B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-/* .jumbotron {
-    background-color: #000000;
-} */
-div.row, div.container-fluid2,div.container-lg {
+
+.col-lg-6 {
+    background-color: darkslategray;
+}
+
+.row,
+.container-fluid2,
+.container-lg,
+.col-md-8 {
     height: 250px;
     background-color: grey;
     color: antiquewhite;
@@ -17,7 +24,8 @@ div.row, div.container-fluid2,div.container-lg {
     padding: 5px;
     margin: 10px;
 }
-div.col {
+
+.col {
     background: #093028;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #237A57, #093028);
@@ -29,4 +37,3 @@ div.col {
     padding: 5px;
     border: 2px solid #000000;
 }
-
