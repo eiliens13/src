@@ -37,3 +37,6 @@ body {
     padding: 5px;
     border: 2px solid #000000;
 }
+.bg-gradient{
+    background-image: var(--bs-gradient);
+}
