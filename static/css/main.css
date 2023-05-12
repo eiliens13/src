@@ -10,3 +10,8 @@ body {
 .bg-gradient {
     background-image: var(--bs-gradient);
 }
+
+i {
+    font-size: 100px;
+    color: darkolivegreen;
+}
