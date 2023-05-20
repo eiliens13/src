@@ -1,3 +1,5 @@
+/* Generales */
+
 body {
   background: #DCE35B;
   background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
@@ -7,11 +9,16 @@ body {
 
 }
 
-.bg-gradient {
-  background-image: var(--bs-gradient);
-}
+/* jumbotron */
 
-i {
+.jumbotron i {
   font-size: 100px;
   color: darkolivegreen;
+}
+
+/* Group Cards */
+
+.boton-detalles {
+  padding: 10px;
+  margin: 30px;
 }
