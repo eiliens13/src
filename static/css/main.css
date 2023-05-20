@@ -1,17 +1,17 @@
 body {
-    background: #DCE35B;
-    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #45B649, #DCE35B);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #DCE35B;
+  background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45B649, #DCE35B);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .bg-gradient {
-    background-image: var(--bs-gradient);
+  background-image: var(--bs-gradient);
 }
 
 i {
-    font-size: 100px;
-    color: darkolivegreen;
+  font-size: 100px;
+  color: darkolivegreen;
 }
