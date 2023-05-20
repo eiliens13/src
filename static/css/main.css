@@ -19,6 +19,16 @@ body {
 /* Group Cards */
 
 .boton-detalles {
-  padding: 10px;
-  margin: 30px;
+  padding: 7px;
+  margin: 8px;
+  color: white;
+  background-color: black;
+  border-color: gray;
+  display: flow-root;
+}
+
+.boton-detalles:hover {
+  color: black;
+  background-color: greenyellow;
+  border-color: black;
 }
