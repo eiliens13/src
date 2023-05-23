@@ -1,3 +1,15 @@
+/* Barra de Navegacion */
+
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* Generales */
 
 body {
@@ -24,7 +36,9 @@ body {
   color: white;
   background-color: black;
   border-color: gray;
-  display: flow-root;
+  display: flex;
+  justify-items: center;
+  max-width: 300px;
 }
 
 .boton-detalles:hover {
