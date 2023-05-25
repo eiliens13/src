@@ -35,23 +35,34 @@ body, .navbar{
 
 }
 
-.seccion-clara {
-  font-family: 'Source Code Pro', monospace;
+.seccion-verde {
   background-color: rgb(224, 248, 9);
   color: black;
-  padding: 40px 40px 20px 40px;
-  margin: auto;
 }
 
-/* jumbotron */
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Source Code Pro', monospace;
+}
 
-/* .jumbotron {
-  font-size: 100px;
-  color: rgb(0, 0, 0);
-} */
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
 
-/* Group Cards */
+.seccion-texto {
+  font-size: 1.2rem;
+}
 
+/* Seccion Hero */
+
+.hero {
+  min-height: 450px;
+  text-align: center;
+}
+
+/* Seccion Circuitos */
 .boton-detalles {
   padding: 7px;
   margin: 8px;
